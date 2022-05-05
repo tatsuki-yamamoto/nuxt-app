@@ -1,3 +1,6 @@
 <template>
-  <div>hallo world!!!</div>
+  <div>
+    <div>hallo world!!!</div>
+    <v-btn>click</v-btn>
+  </div>
 </template>
