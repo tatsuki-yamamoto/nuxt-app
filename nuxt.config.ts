@@ -20,4 +20,7 @@ export default defineNuxtConfig({
     ],
   },
   buildModules: ["@nuxtjs/tailwindcss"],
+  typescript: {
+    strict: true
+  }
 })
