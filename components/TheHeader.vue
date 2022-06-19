@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-app-bar class="w-full">
+    <v-app-bar color="primary" class="w-full">
       <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
       <v-app-bar-title>
         <span class="cursor-pointer" @click="$router.push('/')">Nuxt3 サンプル</span>
@@ -22,7 +22,7 @@ export default {
     drawer: false,
     items: [
       {
-        title: 'top',
+        title: '基本的な内容',
         to: '/',
       },
       {
@@ -32,6 +32,10 @@ export default {
       {
         title: 'composables',
         to: '/composables',
+      },
+      {
+        title: 'watch',
+        to: '/watch',
       },
     ],
   }),
