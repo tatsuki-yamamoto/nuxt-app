@@ -1,4 +1,8 @@
 <script lang="ts" setup>
+useHead({
+  title: 'props/emits',
+})
+
 const name = ref('太郎')
 const changeName = (newName: string): void => {
   name.value = newName

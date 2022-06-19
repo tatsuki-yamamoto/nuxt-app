@@ -1,4 +1,7 @@
 <script lang="ts" setup>
+useHead({
+  title: 'state確認',
+})
 const userState = useUserState()
 </script>
 
