@@ -8,6 +8,6 @@ const changeName = (newName: string): void => {
 <template>
   <base-container>
     <base-title hide-back-button>props/emits</base-title>
-    <props-and-emits :name="name" @change="changeName"></props-and-emits>
+    <my-props-and-emits :name="name" @change="changeName"></my-props-and-emits>
   </base-container>
 </template>
