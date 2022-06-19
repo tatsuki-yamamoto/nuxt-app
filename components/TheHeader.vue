@@ -41,6 +41,10 @@ export default {
         title: 'state',
         to: '/state',
       },
+      {
+        title: 'fetch data',
+        to: '/fetch-data',
+      },
     ],
   }),
 }
