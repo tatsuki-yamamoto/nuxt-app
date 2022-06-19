@@ -37,6 +37,10 @@ export default {
         title: 'watch',
         to: '/watch',
       },
+      {
+        title: 'state',
+        to: '/state',
+      },
     ],
   }),
 }
