@@ -7,7 +7,7 @@ const error = useError()
 
 <template>
   <base-container class="text-center">
-    <h1 class="text-3xl font-bold inline">お探しのページが見つかりませんでした</h1>
+    <h1 class="text-3xl font-bold mt-12">お探しのページが見つかりませんでした</h1>
     <p class="mt-6 mb-9">あなたがアクセスしたページは、削除されたかURLが変更されているため<br />表示することができませんでした。</p>
     <v-btn nuxt to="/">TOPページへ戻る</v-btn>
   </base-container>
