@@ -26,6 +26,10 @@ export default {
         to: '/',
       },
       {
+        title: 'props/emits',
+        to: '/props-emits',
+      },
+      {
         title: 'composables',
         to: '/composables',
       },
