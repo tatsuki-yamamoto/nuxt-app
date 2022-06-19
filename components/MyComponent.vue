@@ -61,21 +61,12 @@ watchEffect(() => {
   console.log({ price: price.value, count: valueCount.value, sumPrice: sumPrice.value })
 })
 
-// TODO:
-// const users = ref([])
-// const fetchUsers = async () => {
-//   const res = await fetch('https://jsonplaceholder.typicode.com/users')
-//   users.value = await res.json()
-// }
-// fetchUsers()
-
 const inputName = ref<string>('Johnだろーが')
 const input = ref<HTMLInputElement>()
 // mounted
 onMounted(() => {
   console.log('mounted!')
-  input.value?.focus()
-  console.log(input.value?.value)
+  console.log({ 'input.value?.value': input.value?.value })
 })
 // updated
 onUpdated(() => {
